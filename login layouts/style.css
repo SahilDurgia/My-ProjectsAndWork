@@ -2,6 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #e7fafe;
 }
 .parent {
   display: flex;
@@ -10,6 +11,9 @@ body {
   font-family: "Poppins", sans-serif;
   top: 150px;
   position: relative;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 1px 1px 5px black;
 }
 .parent p:first-child {
   text-align: center;
