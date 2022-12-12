@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Layout Task 2 </title>
+		<link rel='stylesheet' href='./style.css'>
+	</head>
+	<body>
+	<div class='parent'>
+	<div class='imgsection'>
+	<img src='./img1.jpg' alt='pic'>
+	</div>
+	<div class='textsection'>
+	<h1>welcome</h1>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+	</div>
+	
+	</div>
+
+
+	</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+  background-color: azure;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  /* border: 2px solid black; */
+  border-radius: 25px;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+.parent img:first-child {
+  margin-top: 24px;
+}
+.parent p:nth-child(2) {
+  color: gray;
+  letter-spacing: 2px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+}
+.parent h1:nth-child(3) {
+  margin-left: 30px;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+.parent div:last-child {
+  margin-left: 30px;
+  margin-bottom: 0px;
+  display: flex;
+  font-size: 10px;
+}
+.parent div:last-child p:last-child {
+  color: red;
+  margin-left: 5px;
+}

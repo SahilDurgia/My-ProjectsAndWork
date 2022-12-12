@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Flex Box Assigment 1</title>
+	<link rel='stylesheet' href='./style.css'>
+</head>
+<body>
+	<div class='parent2'>
+	<div class='childa'></div>
+	<div class='childa'></div>
+	<div class='childa'></div>
+	<div class='childa'></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	<div class='parent1'>
+	<div class='child'></div>
+	<div class='child'></div>
+	<div class='child'></div>
+	<div class='child'></div>
+	</div>
+	
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>

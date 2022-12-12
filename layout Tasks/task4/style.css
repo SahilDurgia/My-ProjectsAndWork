@@ -1,0 +1,32 @@
+.parent{
+	display: flex;
+	flex-direction:column;
+	width:1500px;
+	height:400px;
+	flex-grow:1;
+	text-align:center;
+}
+.section1{
+	background-color:#186CFE;
+	flex-grow:1;
+	display:flex;
+	justify-content:space-evenly;
+	padding: 0px 250px;
+	align-items:center;
+}
+.section2{
+	background-color:#55FE18;
+	flex-grow:1;
+	display:flex;
+	justify-content:space-evenly;
+	padding: 0px 250px;
+	align-items:center;
+}
+a{
+	text-decoration:none;
+	color:white;
+	
+}
+.linka{
+	border-bottom: 2px solid #91de6e;
+}

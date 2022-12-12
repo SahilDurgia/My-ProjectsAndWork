@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>button task 2 </title>
+		<link rel='stylesheet' href='./style.css'>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class='parent'>
+			<button class='b b1'>GOOGLE</button>
+			<button class='b b2'>FACEBOOK</button>
+			<button class='b b3'>YOUTUBE</button>
+			<button class='b b4'>SNAPCHAT</button>
+			<button class='b5'>INSTAGRAM</button>
+		
+		
+		
+		</div>
+
+
+	</body>
+</html>

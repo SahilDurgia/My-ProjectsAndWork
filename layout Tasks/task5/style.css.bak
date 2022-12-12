@@ -1,0 +1,35 @@
+.parent{
+	width:320px;
+	height:469px;
+	border:1px solid ;
+	display:flex;
+	flex-direction:column;
+	text-align:left;
+	font-family:'Poppins', sans-serif;
+	padding-left: 30px;
+}
+
+button{
+	    color: white;
+    background: #ff5757;
+    width: 292px;
+    height: 45px;
+	border: none;
+	display: inline-block;
+	border-radius: 4px;
+	font-size:20px;
+}
+.boldtext{
+	border-top:1px solid LightGray;
+	text-align:center;
+	width:275px;
+}
+.link{
+	text-align:center;
+	width:275px;
+}
+a{
+	text-decoration: none;
+    color: #6febcc;
+    font-weight: bold;
+}

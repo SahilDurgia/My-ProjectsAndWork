@@ -1,0 +1,44 @@
+
+.box{
+	top:50%;
+	width:100px;
+	height:100px;
+	background-color:red;
+	position:relative;
+	animation: box 6s backwards 2 linear;
+	left:50px;
+}
+
+
+@keyframes box{
+	0%{
+		background-color:red;
+		top:50%;
+		left:50px;
+		
+	}
+	25%{
+		background-color:yellow;
+		left:250px;
+		top:50%;
+	}
+	50%{
+		background-color:blue;
+		/* top:200px; */
+		top:80%;
+		left:250px;
+
+	}
+	75%{
+		background-color:green;
+		left:50px;
+		/* top:200px; */
+		top:80%;
+	}
+	100%{
+		background-color:red;
+		top:50%;
+		left:50px;
+	}
+	
+}

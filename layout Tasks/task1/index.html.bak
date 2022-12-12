@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>Layout Task 1 </title>
+		<link rel='stylesheet' href='./style.css'>
+	</head>
+	<body>
+	<div class='parent'>
+	<div class='section1'>
+	<h2 style="margin-bottom: 5px;">WELCOME TO MY WEBSITE</h2>
+	</div>
+	<div class='section2'>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+	</div>
+
+	</body>
+</html>

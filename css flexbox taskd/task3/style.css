@@ -1,0 +1,31 @@
+.parent{
+	width:1000px;
+	height:500px;
+	display:flex;
+	border:10px solid #000;
+	flex-direction:column;
+}
+.section1{
+	flex-grow:7;
+	background-color:red;
+	
+}
+.section2{
+	flex-grow:3;
+	display:flex;
+	/* justify-content:space-evenly; */
+}
+.child1{
+	background-color:purple;
+	flex-grow:1;
+}
+.child2{
+	background-color:black;
+	flex-grow:1;
+}
+
+.child3{
+	background-color:purple;
+	flex-grow:1;
+}
+

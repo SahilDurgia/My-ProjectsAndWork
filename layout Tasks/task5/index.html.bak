@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Layout Task 1 </title>
+		<link rel='stylesheet' href='./style.css'>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet">
+	</head>
+	<body>
+	<div class='parent'>
+		<div class='Heading'>
+			<h1>FREE</h1>
+		</div>
+		<div class='button'>
+			<button type="button">Enroll Now</button>
+		</div>
+		<div class='parahead'>
+			<h3>Includes</h3>
+		</div>
+		<div class='bullet'>
+			<ul>
+				<li>11.5 hours on demand video </li>
+				<li>85 downlodable resources</li>
+				<li>Full lifetime access</li>
+				<li>Acess on mobile and Tv</li>
+				<li>certificate of completion</li>
+			</ul>
+		</div>
+		<div class='boldtext'>
+			<h5>Share and earn up to $30 *</h5>
+		</div>
+		<div class='link'>
+			<a href=''>Invite Friend</a>
+		</div>
+	</div>
+
+	</body>
+</html>

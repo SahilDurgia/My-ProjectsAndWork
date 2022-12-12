@@ -1,0 +1,38 @@
+.circle{
+	background-color:red;
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	position: absolute;
+    top: 35%;
+	left:10px;
+	animation: changecolor 2s forwards 2;
+}
+
+@keyframes changecolor{
+	0%{
+		background:red;
+		width:200px;
+		height:200px;
+		transform:translate(10px);
+	}
+	30%{
+		background:blue;
+	}
+	60%{
+		background:light-purple;
+	}
+	100%{
+		background-color:pink;
+		transform:translate(500px);
+		width:100px;
+		height:100px;
+		/* left:500px; */
+		
+	}
+	
+	
+	
+	
+	
+}

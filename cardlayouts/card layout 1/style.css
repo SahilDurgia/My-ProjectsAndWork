@@ -1,0 +1,114 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  height: 475px;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid black;
+}
+
+.parent div:first-child div:first-child {
+  width: 290px;
+  height: 263px;
+  /* background-image: url("./images/adidas.png"); */
+  background-size: cover;
+  margin-left: 0px;
+}
+.img {
+  background-image: url("./images/adidas.png");
+}
+.opacity {
+  opacity: 0.5;
+}
+.bckcolor {
+  background-color: aquamarine;
+}
+.btn {
+  width: 111px;
+  height: 32px;
+  background-color: white;
+  color: rgb(103 218 179);
+  border: 0;
+  cursor: pointer;
+  /* z-index: -1; */
+}
+.opacity0 {
+  opacity: 0;
+}
+.parent div:first-child div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 28px;
+}
+.parent div:nth-child(2) p:first-child {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.parent div:nth-child(2) p:last-child {
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(103, 218, 179);
+  margin-bottom: 0;
+}
+.parent p:nth-child(4),
+.parent p:nth-child(6) {
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+.parent p:nth-child(3) {
+  color: rgb(140, 137, 137);
+  font-size: 13px;
+  margin: 0;
+  margin-left: 15px;
+}
+.parent p:nth-child(5) {
+  color: rgb(140, 137, 137);
+  font-size: 13px;
+  margin: 0;
+  margin-left: 15px;
+}
+.parent div:last-child {
+  display: flex;
+  margin-left: 11px;
+}
+.parent div:last-child div {
+  width: 15px;
+  height: 15px;
+  border-radius: 35px;
+  border: 1px solid lightgray;
+  margin: 4px;
+}
+.parent div:last-child div:first-child {
+  background-color: black;
+}
+.parent div:last-child div:nth-child(2) {
+  background-color: white;
+}
+.parent div:last-child div:nth-child(3) {
+  background-color: maroon;
+}
+.parent div:last-child div:last-child {
+  background-color: blue;
+}
+
+.whiteimg {
+  background-image: url("./images/white.png");
+}
+.blueimg {
+  background-image: url("./images/blue.png");
+}
+.blackimg {
+  background-image: url("./images/adidas.png");
+}
+.maroonimg {
+  background-image: url("./images/maron.png");
+}

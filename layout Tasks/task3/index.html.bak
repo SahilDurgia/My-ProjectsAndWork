@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Layout Task 1 </title>
+		<link rel='stylesheet' href='./style.css'>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class='parent'>
+		<div class='img'>
+		<img src='./img1.jpg' alt='thaildland'>
+		</div>
+		<div class='heading'><h2>Terific Thailand</h2></div>
+		<div class='para'>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+		</div>
+		<div class='button'><button type="button">Book Now</button></div>
+		</div>
+
+
+
+
+
+	</body>
+</html>

@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<title>Animation Task 1 </title>
+		<link rel='stylesheet' href='./style.css'>
+	</head>
+	<body>
+		<div class='circle'>
+		
+		</div>
+	</body>
+</html>

@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+section div:first-child {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 90vh;
+  background-image: url("./images/img1.jpg");
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+  background-size: cover;
+  background-position: bottom;
+}
+
+section div:first-child h2:first-child,
+section div:first-child h2:nth-child(2),
+section div:first-child h1:nth-child(3),
+section div:first-child button:last-child {
+  position: relative;
+  right: 10%;
+}
+
+section div:first-child h1:nth-child(3) {
+  font-size: 270%;
+}
+
+section div:first-child button:last-child {
+  background-color: #c70947;
+  color: white;
+  border: 0;
+  width: 120px;
+  height: 30px;
+  cursor: pointer;
+}
+
+section div:last-child {
+  display: flex;
+
+  justify-content: space-between;
+
+  height: 10vh;
+  background-color: #c70947;
+  color: white;
+  align-items: center;
+  flex-wrap: wrap;
+}
+section div:last-child ul li {
+  list-style: none;
+  padding-right: 40px;
+}
+section div:last-child div:last-child ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-left: 0px;
+  padding-right: 150px;
+  flex-wrap: wrap;
+  background-color: #c70947;
+}
+section div:last-child h3 {
+  padding-left: 50px;
+}
+section div:last-child div:last-child ul li a {
+  text-decoration: none;
+  color: white;
+}

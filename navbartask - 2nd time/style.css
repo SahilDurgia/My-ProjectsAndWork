@@ -1,0 +1,38 @@
+body{
+	margin:0px;
+	font-family: 'Poppins', sans-serif;
+}
+.nav1{
+	height:50px;
+	background-color:#24252a;
+	display:flex;
+	justify-content:space-between;
+	/* position:relative; */
+}
+.nav1 div:first-child, div a, button:last-child{
+	color:white;
+	/* position:absolute;	 */
+}
+a{
+	text-decoration:none;
+	margin-right: 25px;
+}
+.nav1 div:first-child{
+	margin-top: -7px;
+	margin-left: 75px;
+	    font-size: 13px;
+
+	
+}
+button:last-child{
+	width:100px;
+	height:35px;
+	border-radius:35px;
+	background-color:#0189a1;
+	    margin-top: 7px;
+		    margin-right: 95px;
+}
+div:nth-child(2){
+margin-top: 15px;
+    margin-right: 135px;
+}

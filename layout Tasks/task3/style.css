@@ -1,0 +1,28 @@
+.parent{
+	width:320px;
+	height:419px;
+	border:1px solid LightGray;
+	display:flex;
+	flex-direction:column;
+	padding-left: 26px;
+    padding-top: 23px;
+}
+button{
+	background: #186CFE;
+	padding: 7px 23px;
+	color: white;
+	border:none;
+}
+img{
+	width:294;
+}
+.para{
+	border-top: 1px solid LightGray;
+	text-align:left;
+	font-family:Arial;
+	    width: 295px;
+	
+}
+.heading{
+font-family: 'Short Stack', cursive;
+}

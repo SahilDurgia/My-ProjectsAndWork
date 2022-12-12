@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head><title>Table Assigment 3</title></head>
+<body>
+	<table border='1'>
+	<tr>
+		<th rowspan='3'>Day</th>
+		<th colspan='5'>Seminar</th>
+	</tr>
+	<tr>
+		<th colspan='2'>Shedule</th>
+		<th rowspan='2' colspan='3'>Topic</th>
+	</tr>
+	<tr>
+		<th>Begin</th>
+		<th>End</th>
+	</tr>
+		<tr>
+		<td rowspan='2'>Monday</td>
+		<td rowspan='2'>8:00 am</td>
+		<td rowspan='2'>5:00 pm</td>
+		<td colspan='3'>Introduction to Xml</td>
+		
+	</tr>
+	<tr>
+		<td colspan='3'>Validity Dtd And Relax NG</td>
+	</tr>
+	<tr>
+		<td rowspan='3'>Tuesday</td>
+		<td>8:00 am</td>
+		<td>11:00 am</td>
+		<td colspan='3'>XPath</td>
+	</tr>
+		<tr>
+		<td>11:00 am</td>
+		<td>2:00pm</td>
+		<td rowspan='2' colspan='3'>XSL Transformations</td>
+	</tr>
+	<tr>
+	<td>2:00 pm</td>
+	<td>5:00 pm</td>
+	</tr>
+	<tr>
+		<td>Wednesday</td>
+		<td>8:00 am</td>
+		<td>12:00 pm</td>
+		<td colspan='3'>XSL Formating objects</td>
+	</tr>
+
+
+
+
+
+	</table>
+
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>FlexBox Task 1 </title>
+		<link rel='stylesheet' href='./style.css'>
+	</head>
+	<body>
+		<div class='parent'>
+			<button class='bcb b1'>Click Me</button>
+			<button class='bcw b2'>Click Me</button>
+			<button class='bcb b3'>Click Me</button>
+			<button class='bcw b4'>Click Me</button>
+			<button class='bcb b5'>Click Me</button>
+		</div>
+		<br>
+		<br>
+		<div class='parent2'>
+			<button class='bcw b6'>Click Me</button>
+			<button class='bcb b7'>Click Me</button>
+			<button class='bcw b8'>Click Me</button>
+		
+		
+		</div>
+
+	</body>
+</html>
