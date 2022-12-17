@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adhar Card</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="fdiv">
+      <form method="get" id="myform">
+        <h1>Adhar Card Form</h1>
+
+        <!-- fIRST NAME -->
+
+        <div class="fname">
+          <label for="fname" class="labelname">First Name</label>
+          <input
+            type="text"
+            name="firstName"
+            id="fname"
+            placeholder="Ex. Sahil"
+          />
+        </div>
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Enter Vaild First Name
+        </div>
+
+        <!-- last name -->
+
+        <div class="lname">
+          <label for="lname" class="labelname">Last Name</label>
+          <input
+            type="text"
+            name="lastName"
+            id="lname"
+            placeholder="Ex. Kapoor"
+          />
+        </div>
+
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Enter Vaild Last Name
+        </div>
+
+        <!-- Fathers Name -->
+
+        <div class="fathersName">
+          <label for="fathersName" class="labelname">Fathers Name</label>
+          <input
+            type="text"
+            name="fathersName"
+            id="fathersName"
+            placeholder="Ex. Ram"
+          />
+        </div>
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Enter Vaild fathers Name
+        </div>
+        <!-- Mothers name -->
+
+        <div class="mothersName">
+          <label for="mothersName" class="labelname">Mothers Name</label>
+          <input
+            type="text"
+            name="mothersName"
+            id="mothersName"
+            placeholder="Ex. Pushpa"
+          />
+        </div>
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Enter Vaild Mothers Name
+        </div>
+        <!-- gender radio btn -->
+
+        <div class="gender">
+          <p class="labelname" name="gender">Gender</p>
+          <div style="border: 0">
+            <div>
+              <label for="genderMale">Male</label>
+              <input
+                type="radio"
+                name="gender"
+                id="genderMale"
+                value="male"
+                style="width: 20px"
+              />
+            </div>
+
+            <div>
+              <label for="genderFemale">Female</label>
+              <input
+                type="radio"
+                name="gender"
+                id="genderFemale"
+                value="female"
+                style="width: 20px"
+              />
+            </div>
+
+            <div>
+              <label for="genderOther">Other</label>
+              <input
+                type="radio"
+                name="gender"
+                id="genderOther"
+                value="other"
+                style="width: 20px"
+              />
+            </div>
+          </div>
+        </div>
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Select Valid Gender
+        </div>
+
+        <!-- Age -->
+
+        <div class="age">
+          <label for="age" class="labelname">Age</label>
+          <input type="text" name="age" id="age" placeholder="Ex. 22" />
+        </div>
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Enter Vaild Age
+        </div>
+        <!-- Date of Birth -->
+
+        <div class="dOB">
+          <label for="dOB" class="labelname">Date Of Birth</label>
+          <input type="date" name="dOB" id="dOB" />
+        </div>
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Enter Vaild Date Of birth
+        </div>
+        <!-- Pancard -->
+
+        <div class="panCard">
+          <label for="panCard">Pan card Number</label>
+          <input
+            type="text"
+            name="panCard"
+            id="panCard"
+            placeholder="Ex. ABCTY1234D"
+          />
+        </div>
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Enter Vaild Pancard
+        </div>
+        <!-- Driving Liceience -->
+
+        <div class="dlNO">
+          <label for="dlNO">Driving License<br />Number</label>
+
+          <input
+            type="text"
+            name="dlNO"
+            id="dlNO"
+            placeholder="Ex. MH1420110062821"
+          />
+        </div>
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Enter Vaild Driving Licience Number
+        </div>
+        <!-- Addresh -->
+
+        <div class="addresh" style="height: 150px">
+          <label for="addresh" class="labelname">Address</label>
+          <textarea
+            name="addresh"
+            id="addresh"
+            cols="30"
+            rows="10"
+            placeholder="Ex . Flat No., Wing, Building Name  Locality, Location, City,  West/East, State, Country"
+          ></textarea>
+          <!-- <input type="text" name="addresh" id="addresh" /> -->
+        </div>
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Enter Vaild Addresh
+        </div>
+
+        <!-- district -->
+
+        <div class="district">
+          <label for="district" class="labelname">District</label>
+          <select name="district" id="district">
+            <option value="selectDistrict">Select District</option>
+            <option value="thane">Thane</option>
+            <option value="kalyan">Kalyan</option>
+            <option value="palghar">Palghar</option>
+          </select>
+        </div>
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Select Vaild District
+        </div>
+        <!-- cITY -->
+
+        <div class="city">
+          <label for="city" class="labelname">City</label>
+          <select name="city" id="city" required>
+            <option value="selectCity">Select City</option>
+            <option value="thane">Thane</option>
+            <option value="kalyan">Kalyan</option>
+            <option value="palghar">Palghar</option>
+          </select>
+        </div>
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Select Vaild City
+        </div>
+        <!-- Pincode -->
+
+        <div class="pinCode">
+          <label for="pinCode" class="labelname">Pin Code</label>
+
+          <input
+            type="text"
+            name="pinCode"
+            id="pinCode"
+            placeholder="Ex. 400610"
+          />
+        </div>
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Enter Vaild Pincode
+        </div>
+        <!-- State -->
+
+        <div class="state">
+          <label for="state" class="labelname">State</label>
+          <select name="state" id="state" required>
+            <option value="selectState">Select State</option>
+            <option value="maharashtra">Maharashtra</option>
+            <option value="madyapradesh">Madya Pradesh</option>
+            <option value="manipur">Manipur</option>
+          </select>
+        </div>
+
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Select Vaild State
+        </div>
+
+        <!-- COUNTRY -->
+
+        <div class="country">
+          <label for="country" class="labelname">Country</label>
+          <input
+            type="text"
+            name="country"
+            id="country"
+            placeholder="Ex. India"
+          />
+        </div>
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Enter Vaild Country
+        </div>
+        <!-- Bank Name -->
+
+        <div class="bankName">
+          <label for="bankName" class="labelname">Bank Name</label>
+
+          <input
+            type="text"
+            name="bankName"
+            id="bankName"
+            placeholder="Ex. Axis Bank"
+          />
+        </div>
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Enter Vaild Bank Name
+        </div>
+
+        <!-- Bank Account No. -->
+
+        <div class="bankAccNo">
+          <label for="bankAccNo" class="labelname"
+            >Bank Account <br />
+            Number</label
+          >
+          <input
+            type="text"
+            name="bankAccNo"
+            id="bankAccNo"
+            placeholder="Ex. 4242424242424242"
+          />
+        </div>
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Enter Vaild bank Account No.
+        </div>
+        <!-- Terms And Condition-->
+
+        <div class="tnc">
+          <input type="checkbox" name="tnc" id="tnc" style="width: 20px" />
+          <label for="tnc" class="tncstar"
+            >I Agree to terms and Conditions.</label
+          >
+        </div>
+        <div style="font-size: 14px; height: 17px" class="wrongdiv">
+          Please Select checkbox
+        </div>
+        <!-- Submit Button -->
+
+        <input type="submit" value="Submit" style="width: 99px" />
+      </form>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+<!-- http://127.0.0.1:5501/index.html?firstName=safil&lastName=safil&fathersName=safil&mothersName=safil&gender=on&age=safil&dOB=2022-12-08&panCard=safil&dlNO=safil&addresh=safil&district=thane&city=kalyan&pinCode=safil&state=maharashtra&country=safil&bankName=safil&bankAccNo=safil&tnc=on -->

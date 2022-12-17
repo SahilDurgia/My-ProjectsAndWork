@@ -1,0 +1,415 @@
+body {
+  background-color: #f3f3fe;
+  font-family: "Poppins", sans-serif;
+}
+
+#myform h1:first-child {
+  text-align: left;
+  border-bottom: 2px solid black;
+  padding-left: 40px;
+  padding-bottom: 25px;
+}
+#myform div {
+  /* border: 1px solid green; */
+  border-radius: 6px;
+  height: 90px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+#myform {
+  width: 800px;
+  border-radius: 6px;
+  background-color: white;
+}
+/* #myform hr:nth-child(2) {
+  color: aqua;
+} */
+.fdiv {
+  display: flex;
+  justify-content: center;
+}
+#myform input {
+  padding: 3px 3px;
+  width: 300px;
+  border-radius: 5px;
+  /* position: relative;
+  right: 30px; */
+}
+
+/* fathers name Mothers name age DOB panCard dlNO addresh district */
+.fname,
+.lname,
+.fathersName,
+.mothersName,
+.age,
+.dOB,
+.panCard,
+.dlNO,
+.addresh,
+.district,
+.city,
+.pinCode,
+.state,
+.country,
+.bankName,
+.bankAccNo,
+.tnc {
+  position: relative;
+}
+.fname label,
+.lname label,
+.fathersName label,
+.mothersName label,
+.age label,
+.dOB label,
+.panCard label,
+.dlNO label,
+.addresh label,
+.district label,
+.city label,
+.pinCode label,
+.state label,
+.country label,
+.bankName label,
+.bankAccNo label {
+  position: absolute;
+  left: 128px;
+}
+
+.fname #fname,
+.lname #lname,
+.fathersName #fathersName,
+.mothersName #mothersName,
+.age #age,
+.dOB #dOB,
+.panCard #panCard,
+.dlNO #dlNO,
+.addresh #addresh,
+.district #district,
+.city #city,
+.pinCode #pinCode,
+.state #state,
+.country #country,
+.bankName #bankName,
+.bankAccNo #bankAccNo {
+  position: absolute;
+  left: 360px;
+}
+
+/* gender */
+.gender {
+  position: relative;
+}
+.gender div:last-child div:first-child,
+.gender div:last-child div:nth-child(2),
+.gender div:last-child div:last-child {
+  display: flex;
+  position: absolute;
+}
+.gender div:last-child div:first-child {
+  left: 360px;
+}
+.gender div:last-child div:nth-child(2) {
+  left: 450px;
+}
+.gender div:last-child div:last-child {
+  left: 570px;
+}
+.gender p:first-child {
+  position: absolute;
+  left: 128px;
+}
+/* tnc */
+.tnc input {
+  position: absolute;
+  left: 200px;
+}
+.tnc {
+  display: flex;
+  justify-content: center;
+}
+.tncstar::after {
+  content: " *";
+  color: red;
+  font-size: 13px;
+  position: relative;
+  bottom: 6px;
+}
+/* submit */
+[type="submit"] {
+  position: relative;
+  left: 300px;
+  width: 99px;
+  height: 35px;
+  background-color: cornflowerblue;
+  color: white;
+  border: 0;
+  border-radius: 0;
+  font-size: 23px;
+  bottom: 16px;
+}
+.district select,
+.city select,
+.state select {
+  width: 300px;
+}
+
+.addresh textarea {
+  border-radius: 10px;
+  width: 292px;
+  height: 98px;
+  padding-left: 9px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 9px;
+}
+
+.labelname::after {
+  content: " *";
+  color: red;
+  font-size: 13px;
+  position: relative;
+  bottom: 6px;
+}
+
+.bckcolorWrong {
+  background-color: rgb(240, 201, 201);
+  border: 2px solid red;
+}
+.bckcolorRight {
+  background-color: rgb(197, 235, 185);
+  border: 2px solid green;
+}
+.wrongdiv {
+  border: 3px solid red;
+  background-color: #f29b9b;
+  color: red;
+  width: max-content;
+  position: relative;
+  left: 367px;
+  bottom: 27px;
+}
+.opacity {
+  opacity: 0;
+}
+.lnamewrongdiv {
+  border: 3px solid red;
+  background-color: #f29b9b;
+  color: red;
+  width: max-content;
+  position: relative;
+  left: 367px;
+  bottom: 27px;
+}
+/* ///////////////////////////////// */
+@media (max-width: 720px) {
+  body {
+    background-color: white;
+  }
+  #myform h1:first-child {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .fname #fname,
+  .lname #lname,
+  .fathersName #fathersName,
+  .mothersName #mothersName,
+  .age #age,
+  .dOB #dOB,
+  .panCard #panCard,
+  .dlNO #dlNO,
+  .addresh #addresh,
+  .district #district,
+  .city #city,
+  .pinCode #pinCode,
+  .state #state,
+  .country #country,
+  .bankName #bankName,
+  .bankAccNo #bankAccNo {
+    left: 211px;
+  }
+
+  .fname label,
+  .lname label,
+  .fathersName label,
+  .mothersName label,
+  .age label,
+  .dOB label,
+  .panCard label,
+  .dlNO label,
+  .addresh label,
+  .district label,
+  .city label,
+  .pinCode label,
+  .state label,
+  .country label,
+  .bankName label,
+  .bankAccNo label {
+    left: 28px;
+    font-size: 15px;
+  }
+
+  .gender p:first-child {
+    left: 28px;
+    font-size: 15px;
+  }
+  .gender div:last-child div:first-child {
+    left: 211px;
+  }
+  .gender div:last-child div:nth-child(2) {
+    left: 323px;
+  }
+  .gender div:last-child div:last-child {
+    left: 457px;
+  }
+  #myform div {
+    font-size: 17px;
+  }
+  .tnc input {
+    left: 156px;
+  }
+  [type="submit"] {
+    left: 264px;
+    bottom: 7px;
+  }
+  .wrongdiv {
+    left: 211px;
+  }
+}
+@media (max-width: 722px) {
+  .tnc input {
+    left: 154px;
+  }
+}
+@media (max-width: 680px) {
+  .tnc input {
+    left: 140px;
+  }
+  .tnc label {
+    left: 25px;
+    position: relative;
+  }
+}
+@media (max-width: 640px) {
+  .tnc input {
+    left: 104px;
+  }
+  [type="submit"] {
+    left: 207px;
+  }
+  .tnc label {
+    position: relative;
+    left: 52px;
+  }
+}
+@media (max-width: 780px) {
+  .tnc input {
+    left: 170px;
+  }
+}
+
+@media (max-width: 576px) {
+  .fname #fname,
+  .lname #lname,
+  .fathersName #fathersName,
+  .mothersName #mothersName,
+  .age #age,
+  .dOB #dOB,
+  .panCard #panCard,
+  .dlNO #dlNO,
+  .addresh #addresh,
+  .district #district,
+  .city #city,
+  .pinCode #pinCode,
+  .state #state,
+  .country #country,
+  .bankName #bankName,
+  .bankAccNo #bankAccNo {
+    left: 176px;
+  }
+  #myform h1:first-child {
+    border-bottom: 1px solid black;
+    padding-left: 0;
+    padding-bottom: 14px;
+  }
+  #myform input {
+    width: 250px;
+  }
+  .gender div:last-child div:first-child {
+    left: 177px;
+  }
+  .gender div:last-child div:nth-child(2) {
+    left: 277px;
+  }
+  .gender div:last-child div:last-child {
+    left: 404px;
+  }
+  .addresh textarea {
+    width: 240px;
+    height: 71px;
+    border: 1px solid;
+  }
+  .district select,
+  .city select,
+  .state select {
+    width: 251px;
+  }
+  .wrongdiv {
+    left: 181px;
+  }
+  .tnc input {
+    left: 100px;
+  }
+}
+@media (max-width: 540px) {
+  .tnc input {
+    left: 70px;
+  }
+  #myform input {
+    width: 180px;
+  }
+}
+@media (max-width: 440px) {
+  .tnc input {
+    left: 80px;
+  }
+}
+@media (max-width: 390px) {
+  .fdiv {
+    width: 450px;
+  }
+  .tnc input {
+    left: 65px;
+  }
+  #myform h1:first-child {
+    position: relative;
+    left: 57px;
+  }
+  .gender div:last-child div:first-child {
+    left: 118px;
+  }
+  .gender div:last-child div:nth-child(2) {
+    left: 189px;
+  }
+  .gender div:last-child div:last-child {
+    left: 291px;
+  }
+  .addresh textarea {
+    width: 164px;
+    height: 64px;
+  }
+  .district select,
+  .city select,
+  .state select {
+    width: 184px;
+  }
+}
+@media (max-width: 360px) {
+  .tnc input {
+    left: 39px;
+  }
+}
